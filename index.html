@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario Game</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/assets/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/assets/favicon-16x16.png">
+    <link rel="manifest" href="./src/assets/site.webmanifest">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <script defer src="./build/script.js"></script>
+</head>
+<body>
+    <main>
+        <div class="start-game">
+                <p>Para pular:</p>
+                <p><img src="./src/assets/finger.png" alt="Finger"></p>
+                <p>Ou</p>
+                <p><img src="./src/assets/space.png" class="spaceKey" alt="Space Key"></p>
+            
+            <button onclick="init()">Start Game</button>
+        </div>
+        <div class="div-game-over"><h1 class="game-over">Game Over
+            <button onclick="restart()"><img src="./src/assets/refresh.png" alt="Refresh"></button>
+        </h1>
+        </div>
+        <img src="./src/assets/pipe.png" class="pipe" alt="Pipe">
+        <img src="./src/assets/mario.gif" class="mario" alt="Mario">
+        <img src="./src/assets/clouds.png" class="clouds" alt="Clouds">
+    </main>
+</body>
+</html>
