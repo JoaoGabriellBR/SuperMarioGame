@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Mario";
+  src: url("../../src/assets/bitWonder.TTF"); }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mario"; }
+
+body {
+  background-color: #1d1c1c;
+  overflow: hidden; }
+
+main {
+  border-bottom: 60px solid #008000;
+  background-image: linear-gradient(#30a7ec, #fff);
+  height: 90vh;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden; }
+
+.start-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+  gap: 20px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 3px 3px #000;
+  margin-top: -70px; }
+
+.start-game button,
+.game-over button {
+  width: 260px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px; }
+
+.start-game button {
+  background-color: #ff0a0acc; }
+
+.start-game p {
+  font-size: 20px; }
+
+.start-game img {
+  width: 80px;
+  border-radius: 5px; }
+
+.spaceKey {
+  border-radius: 5px; }
+
+.div-game-over {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 70vh;
+  z-index: 20; }
+
+.game-over {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+  text-shadow: 5px 5px #000;
+  font-size: 50px; }
+
+.game-over button {
+  width: 100px;
+  height: 80px;
+  background-color: #ffff09cc; }
+
+.game-over button:hover {
+  cursor: pointer; }
+
+.game-over img {
+  width: 40px; }
+
+.pipe {
+  position: absolute;
+  bottom: 0;
+  right: -120%;
+  width: 60px;
+  animation: none; }
+
+.mario {
+  width: 140px;
+  position: absolute;
+  bottom: 0;
+  left: -20px; }
+
+.jump {
+  animation: jump ease-out 0.5s; }
+
+.clouds {
+  width: 500px;
+  position: absolute;
+  top: 0;
+  right: -140%; }
+
+@keyframes pipe-animation {
+  from {
+    right: -30%; }
+  to {
+    right: 102%; } }
+
+@keyframes jump {
+  0%,
+  100% {
+    bottom: 0; }
+  40% {
+    bottom: 170px; }
+  50% {
+    bottom: 170px; }
+  60% {
+    bottom: 170px; } }
+
+@keyframes clouds-animation {
+  from {
+    right: -90%; }
+  to {
+    right: 110%; } }
+
+@media (max-width: 630px) {
+  @keyframes clouds-animation {
+    from {
+      right: -140%; }
+    to {
+      right: 110%; } }
+  @keyframes pipe-animation {
+    from {
+      right: -100%; }
+    to {
+      right: 102%; } }
+  .game-over {
+    font-size: 30px; }
+  .div-game-over button {
+    width: 100px;
+    height: 70px;
+    font-size: 15px; }
+  .start-game button {
+    width: 200px;
+    font-size: 15px; } }
