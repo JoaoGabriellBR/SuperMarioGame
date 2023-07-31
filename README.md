@@ -19,6 +19,7 @@ https://github.com/JoaoGabriellBR/SuperMarioGame/assets/88870257/767bf4e6-151b-4
 ## 🛠 Tecnologias utilizadas
 
 - TypeScript
+- SCSS
 - JavaScript
 - ESlint
 - HTML5
