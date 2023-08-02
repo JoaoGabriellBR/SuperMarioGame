@@ -40,7 +40,7 @@ https://github.com/JoaoGabriellBR/supermariogame.git
 ```bash
 ## Entrar no diretório
 
-$ cd solartoy
+$ cd supermariogame
 
 ```
 
