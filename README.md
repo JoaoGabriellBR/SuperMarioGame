@@ -6,7 +6,7 @@
 
 ## Sobre o Projeto
 
-[Site oficial](https://gamesupermario.netlify.app)
+[![Website][Website]][Website-url]
 
 O projeto **Super Mario Game** é uma aplicação que visa fazer uma pequena simulação da série de jogos eletrônicos de plataforma, criada pela Nintendo e protagonizada pelo encanador italiano.
 
@@ -55,10 +55,23 @@ $ yarn add
 
 ```
 
+## 🔗 Links
 
-## Autor
+[![Porfolio][Porfolio]][Porfolio-url]
+[![Linkedin][Linkedin]][Linkedin-url]
+[![Email][Email]][Email-url]
 
-**João Gabriel da Silva Ferreira**
 
-https://www.linkedin.com/in/joaogabriel-silva
+<!-- MARKDOWN LINKS & IMAGES -->
+[Website]: https://img.shields.io/badge/site%20oficial-000000?style=for-the-badge
+[Website-url]: https://gamesupermario.netlify.app
+
+[Email]: https://img.shields.io/badge/-gmail-white.svg?style=for-the-badge&logo=gmail
+[Email-url]: joaoname9@gmail.com
+
+[Porfolio]: https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white
+[Porfolio-url]: https://joaogabrielsilva.vercel.app
+
+[Linkedin]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=blue
+[Linkedin-url]: https://www.linkedin.com/in/joaogabriel-silva
 
