@@ -6,11 +6,11 @@
 
 ## Sobre o Projeto
 
-[![Website][Website]][Website-url]
-
 O projeto **Super Mario Game** é uma aplicação que visa fazer uma pequena simulação da série de jogos eletrônicos de plataforma, criada pela Nintendo e protagonizada pelo encanador italiano.
 
-<br> <br> 
+[![Website][Website]][Website-url]
+
+<br>
 
 https://github.com/JoaoGabriellBR/SuperMarioGame/assets/88870257/767bf4e6-151b-4787-a063-1d6a196b78a1
 
